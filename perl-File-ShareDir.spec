@@ -1,9 +1,9 @@
 %define upstream_name    File-ShareDir
-%define upstream_version 1.00
+%define upstream_version 1.01
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Locate per-dist and per-module shared files  
 License:    GPL+ or Artistic
