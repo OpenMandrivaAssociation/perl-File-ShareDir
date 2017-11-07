@@ -1,10 +1,10 @@
 %define modname	File-ShareDir
-%define modver	1.03
+%define modver	1.04
 
 Summary:	Locate per-dist and per-module shared files  
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	15
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -34,4 +34,3 @@ make test
 %doc Changes README
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
-
