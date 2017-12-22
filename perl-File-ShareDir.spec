@@ -1,5 +1,5 @@
 %define modname	File-ShareDir
-%define modver	1.04
+%define modver	1.104
 
 Summary:	Locate per-dist and per-module shared files  
 Name:		perl-%{modname}
