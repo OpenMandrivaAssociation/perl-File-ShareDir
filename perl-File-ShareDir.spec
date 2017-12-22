@@ -31,6 +31,6 @@ make test
 %makeinstall_std
 
 %files
-%doc Changes README
+%doc Changes README.md
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
