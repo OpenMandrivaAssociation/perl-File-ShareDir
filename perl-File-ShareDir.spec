@@ -13,6 +13,7 @@ BuildArch:	noarch
 BuildRequires:	perl(Params::Util)
 BuildRequires:	perl(Class::Inspector)
 BuildRequires:	perl-devel
+BuildRequires:	perl(Test::More)
 
 %description
 Locate per-dist and per-module shared files  
