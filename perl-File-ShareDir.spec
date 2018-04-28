@@ -4,11 +4,11 @@
 Summary:	Locate per-dist and per-module shared files  
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Wx/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Params::Util)
 BuildRequires:	perl(Class::Inspector)
